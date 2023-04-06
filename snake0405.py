@@ -244,7 +244,6 @@ class Snake:
         self.body.insert(0, new_head)
 
     def check_collision(self):
-        print(self.body[0])
         return (
             self.body[0].x < 0
             or self.body[0].x >= self.game.WIDTH
